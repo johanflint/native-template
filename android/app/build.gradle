@@ -102,12 +102,12 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mendix.nativetemplate"
+        applicationId "com.mendix.MyCoolApp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "react-native-camera", "general"
-        versionCode 1
-        versionName "1.0"
+        versionCode 120
+        versionName "0.2.0"
     }
     splits {
         abi {
